@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z-_]+)$ ?page=$1 [L,QSA]
+#RewriteRule ^([0-9a-zA-Z-_]+)/([0-9]+)$ read-more.php?$sef=$1&id=$2 [L,QSA]
+
